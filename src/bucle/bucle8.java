@@ -12,7 +12,7 @@ public class bucle8 {
 		int numero=0;
 		int contador=0;
 		int max=0;
-		int min=0;
+		int min=1000;
 		
 		
 		System.out.println("introduce un numero");
