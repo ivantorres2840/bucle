@@ -18,14 +18,15 @@ public class bucle8 {
 		System.out.println("introduce un numero");
 		numero=leer.nextInt();
 		do {
-			numero=max;
-			numero=min;
-			
-			if (min<numero){
+			if (numero!=0){
+			max=numero;
+			min=numero;
+			}
+			if (numero<min){
 				min=numero;
 			}
 			
-			if (max>numero){
+			if (numero>max){
 				max=numero;
 			}
 			System.out.println("introduce un numero");
